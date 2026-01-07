@@ -1,0 +1,85 @@
+*{ margin: 0;}
+.open-sans- {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header { 
+  background-color: #fff8f3;
+  padding-top: 50px;
+  background:url("../images/developer.png"),url("../images/header_bg.png"),#fff8f3 ;
+  background-position: top left,bottom right;
+  background-repeat: no-repeat;
+  
+} 
+.logo{
+  font-size: 30px;
+  font-weight: 1000;
+}
+.name{
+  color: #FD6E0A;
+}
+nav .menu{
+  display: flex;
+  list-style-type:none;
+  gap: 51px;
+  align-items: center;
+  
+
+}
+nav{
+  width:71%;
+  max-width:1140px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn{
+
+  background: #FD6E0A;
+ border: none;
+ padding: 18px 35px;
+ border-radius: 5px;
+ color:#fff8f3;
+ font-size: 20px;
+ cursor: pointer;
+ 
+}
+#bennar {
+  margin: 47px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+#bennar  .bennar-content{
+  max-width: 585px;
+}
+#bennar  .bennar-content h2{
+font-size: 45px;
+font width: 600;
+color :#474747;
+margin-bottom: 5px;
+
+}
+
+#bennar .bennar-image img{
+  max-width: 585px;
+  vartical-aling:middle;
+ 
+}
+#bennar  .bennar-content h1{
+  font-size: 85px;
+  font-weight: bold;
+  color :#181818;
+  margin-bottom: 20px;
+}
+#bennar  .bennar-content p{
+
+font-size: 18px;
+color:#757575;
+line-hight:30px;
+margin-bottom: 30px;
+}
+
